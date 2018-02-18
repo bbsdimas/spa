@@ -1,0 +1,2 @@
+# spa
+Dockerfile for simplephpapp
