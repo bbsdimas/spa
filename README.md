@@ -14,7 +14,6 @@ docker run -i -t -p 8080:80 spa bash
 3. in docker container 
 /root/prepare.sh
 
-
 4. in host machine http://%docker ip%:8080/app
 to check in docker container:
 	- apt-get install lynx -y
