@@ -10,7 +10,8 @@ echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | sudo tee /et
 # nodejs6
 curl https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add -
 echo "deb https://deb.nodesource.com/node_6.x $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/node.list
-apt-get install php7.2 apache2 libapache2-mod-php -y
+apt-get install php7.2 -y
+apt-get install apache2 libapache2-mod-php -y
 apt-get update
 
 # composer git
