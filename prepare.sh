@@ -1,5 +1,6 @@
 #!/bin/sh
 
+
 apt-get update
 apt-get install rpm mc vim bash -y
 apt-get install openssh-server wget curl sudo gnupg apt-transport-https apt-utils -y
